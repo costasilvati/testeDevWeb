@@ -1,0 +1,42 @@
+/* seletor de elementos */
+body{
+    background-color: lightcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Seletor de classe */
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    background-color: lightblue;
+    padding: 2rem;
+    margin-right: 1rem;/**/
+    width: 30%;
+}
+
+.conteudo{
+    padding: 2rem;
+    width: 70%;
+}
+
+.item-menu{
+    padding: 0.6rem;
+    margin: 0.7rem 0rem 0.7rem 0rem;
+    list-style: none;
+    border-bottom: solid;
+}
+
+.item-menu:hover{
+    background-color:cornflowerblue;
+}
+
+section{
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+#sec1{
+    background-color: beige;
+}
